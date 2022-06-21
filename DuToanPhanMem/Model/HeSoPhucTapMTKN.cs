@@ -101,7 +101,7 @@ namespace DuToanPhanMem.Model
 
         public void TinhEFW()
         {
-            EFW = DS.Sum(a => a.KetQua);
+            EFW = DS.Sum(a => a.KetQua)*0.1f;
         }
 
         public void TinhEF()
@@ -242,11 +242,11 @@ namespace DuToanPhanMem.Model
 
         public void TinhKinhNghiem()
         {
-            if (KetQua >3)
+            if (KetQua >30)
                 KinhNghiem = 1;
-            else if (KetQua > 2)
+            else if (KetQua > 20)
                 KinhNghiem = 0.6f;
-            else if (KetQua > 1)
+            else if (KetQua > 10)
                 KinhNghiem = 0.1f;
             else if (KetQua > 0)
                 KinhNghiem = 0.05f;
