@@ -402,32 +402,32 @@ namespace DuToanPhanMem.Model
 
         public void TinhDiemMDonGian()
         {
-            DiemMDonGian = 1.2f * 5 * SoBDonGian;
+            DiemMDonGian = 1.2f * 5 * SoMDonGian;
         }
 
         public void TinhDiemMTrungBinh()
         {
-            DiemMTrungBinh = 1.2f * 10 * SoBTrungBinh;
+            DiemMTrungBinh = 1.2f * 10 * SoMTrungBinh;
         }
 
         public void TinhDiemMPhucTap()
         {
-            DiemMPhucTap = 1.2f * 15 * SoBPhucTap;
+            DiemMPhucTap = 1.2f * 15 * SoMPhucTap;
         }
 
         public void TinhDiemTDonGian()
         {
-            DiemTDonGian = 1.5f * 5 * SoBDonGian;
+            DiemTDonGian = 1.5f * 5 * SoTDonGian;
         }
 
         public void TinhDiemTTrungBinh()
         {
-            DiemTTrungBinh = 1.5f * 10 * SoBTrungBinh;
+            DiemTTrungBinh = 1.5f * 10 * SoTTrungBinh;
         }
 
         public void TinhDiemTPhucTap()
         {
-            DiemTPhucTap = 1.5f * 15 * SoBPhucTap;
+            DiemTPhucTap = 1.5f * 15 * SoTPhucTap;
         }
 
         public void TinhTongSoB()
